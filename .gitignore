@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / runtime output (keep folder structure, ignore generated contents)
+data/raw/*
+data/processed/*
+data/modeled/*
+data/star_schema/*
+data/checkpoints/*
+data/output/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/modeled/.gitkeep
+!data/star_schema/.gitkeep
+!data/checkpoints/.gitkeep
+!data/output/.gitkeep
+
+# Docker / OS
+.DS_Store
+Thumbs.db
+
+# Secrets (if you later add a .env)
+.env
